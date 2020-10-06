@@ -1,44 +1,28 @@
-# Blamer
+# URUG October 2020 - Creating a Ruby gem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/blamer`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'blamer'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install blamer
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/blamer. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/blamer/blob/master/CODE_OF_CONDUCT.md).
+* [What is a Ruby gem?](https://gitlab.com/thogg4/create-a-gem-urug-10-2020#what-is-a-ruby-gem)
+* [Initial Creation](https://gitlab.com/thogg4/create-a-gem-urug-10-2020#initial-creation)
+* [Configuration](https://gitlab.com/thogg4/create-a-gem-urug-10-2020#configuration)
+* [Dependencies](https://gitlab.com/thogg4/create-a-gem-urug-10-2020#dependencies)
+* [Testing](https://gitlab.com/thogg4/create-a-gem-urug-10-2020#testing)
 
 
-## License
+### What is a Ruby gem?
+https://guides.rubygems.org/what-is-a-gem/
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+A ruby gem is a (usually small) program that is distributed by the RubyGems library built into the ruby language.
 
-## Code of Conduct
+There are a few categories of gems:
+* CLI - stripe-cli
+* Application enhancement - pg
+* Run processes - sidekiq
 
-Everyone interacting in the Blamer project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/blamer/blob/master/CODE_OF_CONDUCT.md).
+### Initial Creation
+* bundler
+* change in gemspec - authors, email, summary, description, homepage, source_code_uri, changelog_uri
+### Configuration
+* letter opener
+### Dependencies
+* gemspec
+### Testing
+* minispec
