@@ -1,11 +1,10 @@
-# frozen_string_literal: true
-
 module Blamer
   class Configuration
-    attr_accessor :repository_root
+    attr_accessor :api_key
 
     def initialize
-      @repository_root = nil
+      @api_key = nil
     end
   end
 end
+
