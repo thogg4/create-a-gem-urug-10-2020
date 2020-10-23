@@ -26,3 +26,6 @@ There are a few categories of gems:
 * gemspec
 ### Testing
 * minispec
+
+### Questions
+You are more than welcome to contact me with questions in the URUG slack, or email me directly at tim@railsgarage.com
